@@ -6,7 +6,7 @@
     "start": "nodemon -e '*' ./bin/www",
     "commit": "cz",
     "prettier": "prettier -c .",
-    "prettier:fix": "prettier -w \"routes/**/*.js\"",
+    "prettier:fix": "prettier -w .",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "code:fix": "npm run prettier:fix && npm run lint:fix",
