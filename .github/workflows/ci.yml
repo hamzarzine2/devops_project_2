@@ -1,4 +1,4 @@
-name: DevOps 07 CI
+name: DevOps project 2 
 
 on:
   pull_request:
