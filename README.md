@@ -1,9 +1,13 @@
 # devops_project_2`
+
 ## Description
+
 App used to apply pipelines, tdd, git, prettier,eslint,commitizen
 
-# to install the projet and all the dependecies 
+# to install the projet and all the dependecies
+
         npm i
+
 ### Prerequisites
 
 -   [Node JS / NPM](https://nodejs.org/en/)
@@ -13,7 +17,6 @@ App used to apply pipelines, tdd, git, prettier,eslint,commitizen
 Install dependencies
 
 npm i
-
 
 ### Testing
 
