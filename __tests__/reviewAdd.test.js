@@ -16,5 +16,10 @@ describe("test of the method review add that should only allow planets with uppe
         expect(result).toBe(true);
     });
 
+    it("should return false if the string contains a special character different to '-' or '.'",()=> {
+        const result = reviewAdd("TRAPPIST-$25");
+        expect(result).toBe(false);
+    });
+
 });
 
