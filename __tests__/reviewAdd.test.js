@@ -31,6 +31,11 @@ describe("test of the method review add that should only allow planets with uppe
         expect(result).toBe(true);
     });
 
+    it("should return false if presence of non permisible characters",()=> {
+        const result = reviewAdd("Trappist$*****01****-00");
+        expect(result).toBe(false);
+    });
+
 
 });
 
