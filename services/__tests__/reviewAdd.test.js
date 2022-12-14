@@ -1,4 +1,4 @@
-const reviewAdd = require("../services/reviewAdd");
+const reviewAdd = require("../reviewAdd");
 
 describe("test of the method review add that should only allow planets with uppercases and '-' OR '.'", () => {
     it("should return false if the string is empty", () => {
