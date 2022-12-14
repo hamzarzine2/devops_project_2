@@ -21,5 +21,10 @@ describe("test of the method review add that should only allow planets with uppe
         expect(result).toBe(false);
     });
 
+    it("should return true if the string has only uppercase character, numbers or special character equals to '-'",()=> {
+        const result = reviewAdd("TRAPPIST-25");
+        expect(result).toBe(true);
+    });
+
 });
 
