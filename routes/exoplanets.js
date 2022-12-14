@@ -5,6 +5,7 @@ const Exoplanet = require("../models/Exoplanet.js");
 
 /* GET exoplanets index. */
 router.get("/", (req, res, next) => {
+    console.log("true");
     res.render("exoplanets/index", { exoplanetsTable: Exoplanet.list() });
 });
 
